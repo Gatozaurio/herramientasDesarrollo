@@ -1,0 +1,45 @@
+#cabecera {
+	border-style: solid;
+    border-width: 2px;
+    margin-left:30%;
+	text-align: center;
+	width: 60%;
+	font-family: 'Verdana';
+
+}
+
+#navegador {
+	border-style: solid;
+    border-width: 2px;
+    margin-left:1em;
+    margin-top: 5%;
+	text-align: left;
+	width: 18%;
+	font-family: 'Verdana', cursive;
+	float: left;
+	padding-left: 1em;
+
+}
+
+#main {
+	border-style: solid;
+    border-width: 2px;
+    margin-left:5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+    padding: 1em;
+	text-align: justify;
+	width: 65%;
+	font-family: 'Verdana', cursive;
+	float: left;
+	line-height: 30px
+
+}
+
+img {
+    max-width: 100%;
+	max-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
