@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Capturar color</title>
+    <title>Valores</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../Estilo/main.css" />
     <script src="main.js"></script>
 </head>
 <body>
     <div id="cabecera">
-        <h1>Capturar color</h1>
+        <h1>Debugger: valores</h1>
     </div>
         
     <div id="navegador">
@@ -30,25 +30,33 @@
 
     <div id="main">
         <p>
-            Una de las opciones que nos ofrece las herramientas de desarrollo de firefox es poder obtener el valor exadecimal de un color que se encuentre en cualquier página.
+            El debugger también nos permite ver que valor toman las variables en cada momento, de esta forma sabemos mejor qué es lo que está ocurriendo en cada momento durante la depuración, para ello colocamos el ratón sobre la variable y aparecerá una pequeña ventanita con el valor de la variable.
         </p>
         <p>
-            Para ello debemos abrir las herramientas de desarrollador y hacer click en el icono del cuentagotas ubicado en la esquina superior derecha de la estructura html:
+            En el ejemplo podemos ver como el valor inicial de la variable contador es 0:
         </p>
         <p>
-            <img src="../Recursos/cuentagotas.png" alt="Ubicación del cuentagotas."/>
+            <img src="../Recursos/valor_inicial.png" alt="Valor inicial de la variable."/>
         </p>
         <p>
-            Una vez abierto, nuestro cursor se transformará en una lupa para poder seleccionar el píxel exacto, además de una previsualización del color junto a su valor hexadecimal.
+            Conforme avanza la depuración podemos comprobar que el valor de la variable contador se actualiza al aumentar en el bucle:
         </p>
         <p>
-            <img src="../Recursos/lupa.png" alt="Lupa de selección de color."/>
-        </p>
-            Al hacer click, el código exadecimal se habrá copiado al portapapeles y podremos usarlo para nuestra propia página web.
+            <img src="../Recursos/aumento_valor.png" alt="Aumento del valor."/>
         </p>
         <p>
-            <img src="../Recursos/color_robado.png" alt="Texto con el color aplicado."/>
+            Al aumentar hasta 10 sale del bucle:
         </p>
+        <p>
+            <img src="../Recursos/salida_bucle.png" alt="Salida del bucle."/>
+        </p>
+        <p>
+            Al salir se reinicia el contador y podemos comprobar que el valor de la variable vuelve a ser 0:
+        </p>
+        <p>
+            <img src="../Recursos/reinicio_contador.png" alt="El contador vuelve a ser 0."/>
+        </p>
+        
     </div>
     
 </body>
